@@ -1,7 +1,7 @@
 
 function getPlot(id) {
     // pull in json file 
-    d3.json("../samples.json").then((file)=> {
+    d3.json("../../samples.json").then((file)=> {
         console.log(file)
   
         let wfreq = file.metadata.map(d => d.wfreq)
